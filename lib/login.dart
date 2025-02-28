@@ -1,5 +1,5 @@
 import 'package:doctorappoinment/password.dart';
-import 'package:doctorappoinment/profile.dart';
+import 'package:doctorappoinment/featured/homepages/controller/authentication/profile.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatefulWidget {

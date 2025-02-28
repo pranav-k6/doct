@@ -8,7 +8,7 @@ class Completed extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.only(left: 50),
         child: Container(
               height: 230,
               width: 400,

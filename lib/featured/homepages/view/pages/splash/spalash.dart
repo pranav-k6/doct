@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:doctorappoinment/person1.dart';
+import 'package:doctorappoinment/featured/homepages/view/pages/splash/person1.dart';
 import 'package:flutter/material.dart';
 
 class Spalash extends StatefulWidget {

@@ -1,5 +1,5 @@
 import 'package:doctorappoinment/login.dart';
-import 'package:doctorappoinment/person2.dart';
+import 'package:doctorappoinment/featured/homepages/view/pages/splash/person2.dart';
 import 'package:flutter/material.dart';
 
 class Person1 extends StatelessWidget {
@@ -58,7 +58,7 @@ class Person1 extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 30,
+              height: 10,
             ),
             InkWell(onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()));

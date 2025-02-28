@@ -47,7 +47,7 @@ class Person3 extends StatelessWidget {
                    ),
             ),
              SizedBox(
-                height: 30,
+                height: 10,
               ),
               InkWell(onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()));

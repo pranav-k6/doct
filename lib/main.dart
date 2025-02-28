@@ -17,11 +17,12 @@ import 'package:doctorappoinment/navigation.dart';
 import 'package:doctorappoinment/newpass.dart';
 import 'package:doctorappoinment/password.dart';
 import 'package:doctorappoinment/password1.dart';
-import 'package:doctorappoinment/person1.dart';
-import 'package:doctorappoinment/person3.dart';
-import 'package:doctorappoinment/profile.dart';
-import 'package:doctorappoinment/spalash.dart';
+import 'package:doctorappoinment/featured/homepages/view/pages/splash/person1.dart';
+import 'package:doctorappoinment/featured/homepages/view/pages/splash/person3.dart';
+import 'package:doctorappoinment/featured/homepages/controller/authentication/profile.dart';
+import 'package:doctorappoinment/featured/homepages/view/pages/splash/spalash.dart';
 import 'package:flutter/material.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Person1(),
+      home:Spalash(),
     );
   }
 }
